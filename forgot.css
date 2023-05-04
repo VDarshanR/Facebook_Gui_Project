@@ -1,0 +1,119 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+section{
+    background-color: #d4d9ec4f;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 0 auto;  
+}
+
+div form{
+    background-color: white;
+    width: 500px;
+    height: 267px;
+    text-align:center; 
+    padding: 20px;
+    box-sizing:border-box;
+    position: relative;
+    bottom: 40px;
+    border:solid white;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);  
+}
+
+h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: left;
+    position: relative;
+    bottom: 11px;
+    margin: 0px;
+    right: 5px;
+}
+#hr1{
+    width: 110%;
+    margin-left: -23px;
+    border: 1px solid #ebebeb;
+    margin-top: 6px;
+}
+P{
+    font-size: 17px;
+    position: relative;
+    top: -10px;
+    line-height: 129%;
+    display: inline-block;
+    text-align: left;
+    margin-left: -4px;
+    color: #1c1e21;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+input{
+    width: 455px;
+    height: 50px;
+    padding: 14px 16px;
+    box-sizing: border-box;
+    border: 1px solid #dddfe2;
+    border-radius: 6px;
+    margin-left: -7px;
+    position: relative;
+    top: -8px;
+    outline: none;
+}
+
+input:focus::placeholder
+{
+    color: #dddfe2;
+}
+input::placeholder
+{
+    
+    color: #00000099;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#hr2{
+    width: 110%;
+    margin-left: -23px;
+    border: 1px solid #ebebeb;
+    margin-top: 11px;
+}
+
+#btn1{
+    border: none;
+    position: relative;
+    left: 114px;
+    width: 97px;
+    height: 37px;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#btn1:focus{
+    outline: none;
+}
+
+#btn2{
+    background-color: #1877f2;
+    border: none;
+    position: relative;
+    left: 120px;
+    width: 97px;
+    height: 37px;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #ffffff;
+}
+#btn2{
+    outline: none;
+}
